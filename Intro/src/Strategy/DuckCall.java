@@ -1,4 +1,4 @@
-package Duck;
+package Strategy;
 
 
 // A duck call is a device that hunters use to mimic the calls (quacks) of ducks
