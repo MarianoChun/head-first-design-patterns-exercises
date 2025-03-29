@@ -1,8 +1,10 @@
 package Decorator;
 
 public abstract class Beverage {
-    public enum Size { TALL, GRANDE, VENTI };
+    public enum Size {TALL, GRANDE, VENTI}
+
     Size size = Size.TALL;
+
     String description = "Unknown beverage";
 
     public String getDescription() {
@@ -16,5 +18,6 @@ public abstract class Beverage {
     public Size getSize() {
         return this.size;
     }
+
     public abstract double cost();
 }
